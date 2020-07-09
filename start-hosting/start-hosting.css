@@ -1,0 +1,44 @@
+.signup-title {
+    color: #ff5454;
+    text-align: center;
+}
+
+.signup-form{
+    padding: 1rem;
+}
+
+.signup-form label,
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+    font: inherit;
+    display: block;
+    margin: 1rem auto;
+    width: 80%;
+    max-width: 500px;
+}
+.signup-form label{
+    font-weight: bold;
+}
+.signup-form input,
+.signup-form select{
+    outline: none;
+}
+.signup-form input:focus,
+.signup-form select:focus{
+    background-color: #90d690;
+    border: 2px solid #37d137 ;
+}
+.agree-terms-container{
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+.signup-form input[type="checkbox"],
+label[for="agree-terms"] {
+    width: auto;
+    display: inline-block;
+}
+
+.signup-form button{
+    display: block;
+}
